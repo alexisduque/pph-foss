@@ -1,0 +1,513 @@
+= Projet Personel en Humanités
+:author: Alexis DUQUE
+:email: <alexis.duque@insa-lyon.fr>
+:date: 01/03/2015
+:toc:
+:icons: font
+:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+:doctype: book
+
+:numbered!:
+
+== Le logiciel libre et leur communautés peuvent-ils contribuer à un monde meilleur ?
+
+:numbered:
+
+== Introduction et problématique
+
+Le Projet Personnel en Humanités, effectué dans le cadre d’études d’ingénieur
+de second cycle à l’INSA de Lyon, est un travail de réflexion personnelle et de
+documentation sur un thème libre. J'ai donc chosit de le réaliser sur un sujet
+auquel j'accorde une importance  particulière et qui a un impacté de façon non négligeable
+mon évolution : le logiciel libre et les communautés open-source.
+
+En 2014, en participant au programme Google Summer Code, j'ai eu l'opportunité
+de rejoindre la communauté du projet OpenMRS. OpenMRS est une plateforme de
+collecte de données médicales (EMR), libre, gratuite et utilisées dans de nombreux pays du
+tiers monde et notamment par le système de santé fédéral au Kenya. L'origine
+de ce projet remonte à 2004, lorsque deux bio-informaticiens de l'Université
+d'Indianapolis ont démarré le développement d'un modèle de données, visant
+améliorer la lutte contre le SIDA en Afrique Sub-saharienne. Dix ans après, le
+projet rassemble une communauté de prêt de 150 contributeurs actifs et 3000
+utilisateurs dans le monde. Actuellement, il  participe à grande echelle la
+lutte contre l'épidemie Ebola au Sierra Leon et en Guinée Equatorial.
+En 2004, les docteurs Burke Mamlin et Paul Biondich visitaient le Kenya pour
+consulter les données regroupées dans le cadre du suivi de l’épidémie de SIDA
+dans le pays. Il était clair que le système de gestion n’était pas taillé pour
+la tâche à accomplir. Ils ont donc décidé de débuter un nouveau projet pour
+gérer ces données et d’autres rapports médicaux. Rapidement une communauté s’est
+formée autour de cette initiative et abouti au projet OpenMRS (pour Open Medical
+Record System). Permettant la collecte efficace d’information depuis les
+dispensaires régionaux, OpenMRS a été utilisé pour réagir rapidement aux
+épidémies et a récemment lancé une initiative pour développer la plateforme afin
+d’endiguer l’épidémie d’Ebola.
+
+La nature humanitaire de ce projet, qui d'ailleurs m'a pousser à le rejoindre,
+ainsi que mon implication croissante,  m'ont poussé à me questionner sur l'impact
+ et l'influence qu'un tel projet, et plus généralement le logiciel libre pouvait
+ avoir sur la société et le monde actuel.
+
+Pour comprendre les raisons de cette reflexion, je reviendrais sur les origines et
+la raison d'être du logiciel libre avant d'analyser comment il a influencé et
+influence actuellement notre société, en m'appuyant notamment sur le cas OpenMRS.
+
+
+Aujourd’hui nous pouvons facilement entendre parler de « logiciels libre » ou de « musique
+libre » et nous pouvons voir autour de nous que tout une philosophie de vie se retrouve dans
+le libre. Pour bien comprendre tout cela nous avons décidé de restreindre notre étude au
+«logiciels libre» car c’est le logiciel libre qui a lancé cette vague philosophique et qu’il nous est
+impossible de parler de l’intégralité de ce courant de pensée sans passer à côté de choses
+importantes. Pour comprendre ce qu’est le logiciel libre il faut revenir un peu en arrière et de
+regarder l’histoire de l’informatique moderne.
+
+Avant 1977, il existait un très fort lien entre le matériel vendu et le logiciel qui était livré
+avec les machines. Les constructeurs de matériel achetaient aux éditeurs leurs logiciels avec
+tous les droits. Ceci était compréhensible puisqu’à l’époque, le logiciel était vu comme un
+produit d'ingénierie et non comme une oeuvre intellectuelle comme maintenant. En parallèle à
+cela, beaucoup de logiciels étaient développés et distribués dans le monde de la recherche
+pour des utilisations spécifiques et n'appartenaient à personne et étaient utilisés par tous.
+C’est en 1977 que tout change quand Bill Gates et Paul Allen demandent de recevoir chacun
+3000 dollars chacun pour leur interpréteur BASIC, l’Altair BASIC. En plus de ces 3000
+dollars, ils négocient une licence de 35 dollars pour chaque machine distribuée par le
+Dossier CTC : L’industrie du libre
+3constructeur doté de leur interpréteur. Ainsi Microsoft « inventa » le marché du logiciel
+propriétaire.
+
+
+=== Le logiciel libre, le commencement
+
+Durant les années 80, l’internet grand public naquit
+et facilita les transmissions d’information entre les individus.
+Internet permit surtout à certains passionnés d’informatique
+de monter des projets commun en dépit de l’éloignement
+géographique. Très vite, de nombreux logiciels gratuits
+apparurent et furent disponible au grand public, cependant, il
+restait difficile de partager le code source de ces logiciels puisqu’il était impossible de garantir
+que le code source d’une application ne serait pas repris par un éditeur et vendu au
+détriment des auteurs légitimes de ce code. Une première avancée dans ce domaine a été
+faite par l’Université de Berkeley qui a publié une licence, la « Berkeley Software Distribution
+Licence » abrégée «BSD licence», qui était un moyen de rapprocher son code du domaine
+public. Il était alors légal de distribuer le code et de le modifier. Cependant rien ne pouvait
+garantir le libre accès au code source car rien n’obligeait de donner un accès au code source
+lorsqu’on modifiait significativement le code source d’un logiciel. C’est un problème qui
+perdura jusqu’au milieu des années 80 jusqu’à ce qu’un homme fasse tout basculer.
+
+==== La « Free Software Foundation » inventeur du libre
+
+C’est en 1986 que Richard Stallman fonda la « Free
+Software Foundation » et posa la définition du logiciel libre.
+Sellons les règles de la FSF, un logiciel pour être qualifié de libre
+doit respecter ces quatre libertés :
+
+****
+- Liberté d’exécuter le programme, pour tous les usages.
+- Liberté d’étudier le fonctionnement du programme, et de le modifier pour qu’il
+fasse votre travail informatique comme vous le souhaiter. Pour ceci, le code source est une
+condition requise.
+- Liberté de redistribuer des copies et donc d’aider votre voisin.
+- Liberté de distribuer aux autres des copies de vos versions modifiées. En faisant
+cela, vous pouvez faire profiter toute la communauté de vos changements. L’accès au
+code source est une condition requise.
+****
+
+Après avoir posé ces règles il fallait ensuite proposer un moyen pour garantir le droit
+des auteur de logiciel à partager sans risque leur code. C’est en 1989 que R. Stallman créa
+la «GNU General Public Licence» ou GNU GPL. Cette licence était destinée à unifier les
+licence d’utilisation des projets GNU (GNU Emacs, GNU C Compiler...) cependant, cette
+licence fut vite utilisée par d’autre projets indépendants des projets GNU. A ce moment là, le
+logiciel libre tel que nous le connaissons aujourd’hui est né.
+La GNU GPL, l’OVNI des licences et apogée du libre
+
+La GNU GPL, à son édition et même maintenant, reste une licence très importante
+dans le monde de l’informatique car c’est la seule licence qui garantit un
+héritage sur les nouvelles versions de logiciel, c’est à dire que toute
+nouvelle version d’un logiciel sous licence GNU GPL doit être distribuée
+sous cette licence et avec les même contraintes de partage de code
+source. C’est cette clause de la licence qui la rend plus intéressante que
+les autres licences de partage et qui permet d’instaurer une communauté
+de développeurs qui sont capables de faire avancer des projets
+faramineux. C’est la première licence à pousser la notion de «Copyleft» à
+Dossier CTC : L’industrie du libre
+5son paroxysme et de s’opposer au copyright, c’est à dire que la licence GPL est la première
+licence à permettre à un auteur de renoncer à ses droits de propriété.
+
+Pour pouvoir comprendre l’originalité de la licence GNU GPL, faisons un petit tour
+d’horizon de ce qui se fait en dehors des licences totalement restrictives des logiciels
+propriétaires.
+
+==== Le domaine public
+
+On entend surtout parler du domaine public pour des œuvres littéraires ou musicales
+mais les mêmes lois s’appliquent au logiciel. Ce n’est pas à proprement parler d’une licence
+mais reste un moyen de faciliter le partage. Ainsi, un logiciel du domaine public doit avoir son
+code accessible à tous. Il peut être modifié, redistribué sans contraintes. Cependant, cette
+méthode n’est pas utilisée et ceci pour plusieurs raisons. L’informatique étant une science
+très récente, il est difficile de trouver des logiciels dont leur auteur est mort depuis plus de 70
+ans et donc dont le code source bascule automatiquement dans le domaine public. Les
+seuls logiciels du domaine public existent car leurs propriétaires ont abandonné leur droits sur
+ceux ci. De plus, rien n’assure que le code source ne sera pas modifié puis fermé au profit
+d’un éditeur quelconque. Enfin la législation du domaine public varie selon les pays et peut
+entrer en conflit avec les idéaux de partage. Ces raisons ont poussé des éditeurs à écrire
+d’autres licences, plus contraignantes.
+La «Berkeley software distribution license» ébauche du libre
+
+Dans les années 70, les chercheurs de l’Université de Berkeley cherchent un moyen
+simple de distribuer à la communauté scientifique le code source de leur logiciel, ils
+inventèrent donc une licence qui s’approche très fortement des clauses du domaine public
+Américain, la licence BSD (Berkeley Software Distribution license). À la différence du domaine
+public elle permet entre autre de protéger les auteurs en empêchant l’emploi de leur nom
+dans des produits dérivés et les décharge si un éventuel problème survenait lors de
+l’utilisation de leur logiciel comme une perte de donnée... Il est à noter que du code source
+sous licence BSD peut être incorporé à une solution propriétaire, le meilleur exemple de cela
+est l’utilisation du code en provenance de FreeBSD dans le système d’exploitation Mac Os X.
+Autre chose, cette licence est compatible avec la licence GNU GPL c’est à dire que du code
+écrit sous licence BSD peut être distribué (après modification ou non) sous licence GNU GPL
+car celle ci est plus restrictive, et par conséquent l’inverse n’est pas possible car la licence
+BSD ne comporte pas de clause sur la visibilité du code redistribué.
+Dossier CTC : L’industrie du libre
+6Les Gratuiciels ou Freeware
+
+Ici il est très important de distinguer le logiciel libre du logiciel gratuit. Le gratuiciel est
+un logiciel propriétaire, mais distribué gratuitement, le code source de ces logiciels ne sont
+pas disponibles et il est interdit d’essayer de l’obtenir sans l’accord de l’auteur et encore
+moins de le modifier. Le gratuiciel est de moins en moins utilisé pour des grand projets mais
+demeure utilisé pour de petites applications.
+Le partagiciel ou shareware
+
+Un partagiciel est un logiciel distribué gratuitement à des fins de test, il est propriétaire
+et se présente essentiellement sous deux formes. Une version bridée gratuite qui est là pour
+montrer son utilité, et si l’utilisateur est convaincu, il doit payer pour débrider son logiciel et
+utiliser toutes les fonctionnalités ou bien les partagiciels sont des versions complètes mais qui
+ne peuvent s’utiliser que sur une période limitée. ils est aussi, comme pour les gratuiciels,
+interdit de le modifier et les sources sont fermées.
+
+Il devient maintenant plus facile de comprendre ce pour quoi le logiciel libre a été
+pensé, il s’agissait d’un moyen de mettre à disposition de tous des outils efficaces et
+facilement évolutifs.
+
+== Avantages des logiciels libre
+
+
+Les logiciels libres sont, il faut l’avouer, très peu connus du très grand public au sens
+ou beaucoup de gens achètent une machine avec un système propriétaire et achètent la
+suite logicielle du même éditeur puis ne jurent que par celle ci. Cependant il peut être très
+avantageux de passer au « tout libre ». Il est dommage de se cantonner à cette vision car il
+existe une alternative libre à presque tous les logiciels propriétaires sauf cas spéciaux comme
+par exemple les logiciels spécialisés de CMAO (Conception Mécanique Assistés par
+Ordinateurs) et il suffit parfois d’une petite recherche sur internet pour trouver exactement le
+logiciel qu’il nous faut.
+
+=== Un logiciel acessible à tous
+
+Le plus grand atout des logiciels libres est leur prix
+imbattable, il sont tout bonnement gratuits. Prenons un
+exemple, la version boite du système d’exploitation de la
+firme de Redmont coûte pour une édition familiale 200€
+tandis que Linux est gratuit. Certains diront que de toute façon personne n’achète de version
+boite car le système est livré sur tout nouvel ordinateur et qu’il serait bête de perdre une
+licence de ce logiciel que nous achetons en la remplaçant par une version de Linux. Ceux-là
+oublient que tout constructeur de matériel ou assembleur doit mettre en place un service de
+remboursement de licence de logiciels propriétaires pour les logiciels livrés par défaut avec la
+machine.
+
+Un autre argument en faveur des logiciels libres est leur facilité d’utilisation. Beaucoup
+d’éditeur de logiciel libre ont travaillé sur l’ergonomie de leur logiciel et proposent des moyens
+simple d’installer un logiciel et de l’utiliser. La notion de «User Friendly» se retrouve
+énormément dans la description de distribution Linux telles que Ubuntu ou Mint.
+
+Au niveau fonctionnalités, les logiciels libres mettent en œuvre efficacement tout ce qui
+se fait de mieux dans le monde propriétaire malgré leur interface parfois vielle école et une
+certaine habitude à prendre pour les utiliser.
+
+=== Une sécurité accrue
+
+On peut parler d’une sécurité accrue dans le cas de logiciel libre car comme leur code
+source est visible aux yeux du monde entier et il est donc plus difficile d’y cacher un code
+malveillant. De plus, les utilisateurs avancés sont capables de déceler des bogues lors de
+d'exécutions hasardeuses et faire remonter énormément d’information sur la manière de
+remédier au problème et facilitent ainsi l’évolution et la pérennité du logiciel. Imaginons un
+instant, nous téléchargeons un logiciel gratuit de gestion de finances, par manque de
+chance, l’éditeur de ce logiciel est malveillant et profite du fait que nous entrons nos
+coordonnées bancaire pour envoyer sur un serveur à l’étranger des informations sur notre
+compte en banque, nos sites web favoris et autres informations présentes sur le disque dur. Il
+peut se passer beaucoup de temps avant que l’on se rende compte de ces problèmes
+surtout si le logiciel fait ce pour quoi il a été conçu c’est à dire dessiner des courbes de
+dépenses, prévision de budgets... Tandis qu’une version libre sera forcément relue et ces
+actions de récupération de données personnelles seront visibles.
+
+Une autre conséquence d’avoir un code source disponible est qu’il est alors plus facile
+de faire venir de nouveaux développeurs dans la communauté car ils peuvent s’auto former
+sur le code source avant de rejoindre une équipe de développeur. Ainsi le fait qu’un logiciel
+soit libre auto-entretient son développement et lui assure une pérennité dans le temps. De
+plus le développement est relativement facilité par le nombre d’utilisateurs qui représente une
+force de testeur quasi illimitée. Une technique fortement pratiquée par certains éditeurs de
+logiciel est de distribuer leur logiciel de manière libre, de recueillir les rapports d’erreurs et des
+commentaires sur comment combler des failles de sécurité puis d’améliorer leur produit
+avant de le vendre sur le marché avec une licence propriétaire, une licence est parfois offerte
+aux bêta testeurs.
+
+
+==== Un modèle humainement et socialement enrichissant
+
+Les hommes sont les racines du développement du logiciel libre ; ce qui peut
+sembler étonnant, c'est que la plupart des développeurs ― que l'on devrait
+appeler « Hackers », la récente signification n'étant qu'un amalgame diffusé
+par les médias ― programment pendant leurs temps libres, en soirées ou le
+week-end. Ils ne programment pas dans un but intéressé économiquement mais
+pour le développement de leur logiciel et de la communauté.
+
+Raymond, un des grands « philosophes du libre », qui se dit aussi «
+anthropologue extra-terrestre », affirme la chose suivante : « Tout bon logiciel
+commence par gratter un développeur là où ça le démange ». C'est en effet la
+principale cause de la réussite du logiciel libre : les gens qui le développent
+sont motivés car ils ont un besoin ou une certaine envie de réaliser et aiment
+ce qu'ils font : « Pour résoudre un problème intéressant, commencez par trouver
+un problème qui vous intéresse. ». Ils ne sont pas poussés à le faire, comme
+peuvent l'être des développeurs dans une entreprise commerciale. Eric Raymond
+dans son essai *« Cathedral and the bazaar »* donne ainsi beaucoup de conseils
+tirés d'une longue étude du phénomène Linux et de ses propres expériences. Il
+montre que les développements libres (qui sont du style « bazaar », car
+d'apparence anarchique et désorganisés) sont plus efficaces que leur équivalents
+commerciaux (du style « cathédrale » car rigides, droits, ne publiant au monde
+que des versions des logiciels (re)-travaillées et (re)-vérifiées pendant de
+longs tests). Cette domination du logiciel libre sur le commercial pourrait être
+le fait de la nécessaire considération du talent d'autrui dans les projets
+libres : « Il est presque aussi important de savoir reconnaître les bonnes idées
+de vos utilisateurs que d'avoir de bonnes idées vous-même. C'est même
+préférable, parfois ».  Il conseille ainsi de réellement s'ouvrir aux autres et
+de déléguer au maximum les tâches : « Traiter vos utilisateurs en tant que
+co-développeurs est le chemin le moins semé d'embûches vers une amélioration
+rapide du code et un débogage efficace » et « Si vous traitez vos bêta-testeurs
+comme ce que vous avez de plus cher au monde, ils réagiront en devenant
+effectivement ce que vous avez de plus cher au monde. » ― pour précisions, un
+bêta-testeur est la personne qui teste le logiciel lorsqu'il n'est pas encore
+dit « stable », donc lorsqu'il peut rester des problèmes, des bugs à corriger ;
+dans ce cas le bêta testeur essaie de trouver les bugs et le recense au(x)
+développeur(s).
+
+=== L'envie de donner et de partager écrase t-elle la culture de la gloire personnelle ?
+
+Les développeurs du libre partagent ils leur travaux car
+ils adhèrent intégralement à la politique de libération du logiciel menée par la
+FSF ou est-ce plus simplement pour se faire connaître de la communauté ? Il est
+certain que les 2 points sont valables, le degré d'appréciation dépendant de
+chaque développeur. Nombreux sont ceux qui publient leur logiciel sous licence
+GPL car ils sont reconnaissants de ce mouvement, ils sont conscients que les
+logiciels libres les ont aidé à progresser : le source étant disponible on peut
+étudier le code, et quand il est bien écrit, en tirer de nombreux enseignements
+et s'améliorer largement de cette manière. Il est aussi très valorisant pour
+l'esprit de savoir qu'une de ses productions est utile à des personnes, qu'elle
+leur économise du temps et leur facilite la vie ; voire que son logiciel est
+apprécié et devient indispensable pour les utilisateurs : cela est vraiment
+gratifiant pour un développeur. Lorsque c'est le cas il est évident qu'une
+certaine gloire émerge, ou plus généralement une reconnaissance par la
+communauté, et se forge alors une réputation qui peut, dans le cas de produits
+phares, être un tremplin important dans le marché du travail. Ce fut par exemple
+le cas pour Linus Torvalds qui après avoir réalisé Linux fut employé par
+l'université d'Helsinki, puis par la suite employé par Transmeta qui lui proposa
+un excellent poste au sein de sa structure. Le cas de Torvalds est loin d'être
+une exception, les expériences dans le logiciel libre étant des atouts très
+appréciés sur les CV.
+
+De manière plus générale, pour Linus Torvalds (avis que
+je partage très largement) : « la plupart des bons programmeurs ne programment
+pas parce qu'ils s'attendent à un salaire ou à être adulés par les foules, mais
+parce qu'on s'amuse en programmant ». Ce fait est reconnu de tous les
+programmeurs du monde libre : programmer un outil dont on a besoin, se faire
+aider des autres et avoir le sentiment d'aider les autres, est un jeu vraiment
+plaisant ― et les joueurs sont de plus en plus nombreux...
+
+== Les problèmes des logiciels libres
+
+ Les logiciels libres présentent d’incroyables possibilités mais ne sont pas
+exempts de problèmes, ceci est à relativiser car ils ne sont pas systématiques
+ni généralisés de plus ces problèmes se présenter à deux entités, le
+particulier et l’entreprise.
+
+=== Pour le particulier
+
+Il n'est pas rare dans le domaine du libre que plusieurs solutions différentes
+soient développées pour un même problème. Ainsi, il y a une forte concurrence
+entre les logiciels libres eux-mêmes. Il arrive aussi parfois que des projets se
+divisent, et que deux branches du même logiciel se forment et soient développées
+par deux groupes de programmeurs qui ont une vision différente des orientations à
+prendre pour le développement de ce logiciel. Par conséquent, la rentabilité
+globale du développement de ces logiciels s'en trouve affectée, puisque la
+solution au problème initial est développée plusieurs fois, et si l'utilisateur
+dispose d'un choix accru, ce choix peut être relativement difficile à prendre.
+En effet, l'utilisateur doit dans ce cas se baser sur des critères techniques ou
+politiques qui ne l'intéressent normalement pas.
+
+Le travail d'intégration des différents logiciels libres est donc considérable,
+et constitue un point faible face aux solutions globales dont on dispose
+naturellement dans un environnement monopolistique. Ce travail est généralement
+effectué par les différentes «  distributions  » Linux, et implique de manière
+détournée une dépendance vis à vis de l'éditeur de cette distribution.
+
+=== Pour l’entreprise
+
+En plus des problèmes précédemment cités une entreprise a parfois des
+contraintes plus forte. On peut imaginer une entreprise qui a besoin de savoir
+exactement ce que fait un logiciel. Ceci est rendu difficile par la nature du
+programmeur.
+
+Les programmeurs préfèrent généralement le développement de leur
+programme à l'écriture des documentations. Le fait que le code source soit libre
+est prétexte à ne pas le documenter. Il en résulte que les documentations des
+logiciels libres sont parfois incomplètes, obsolètes ou pire, inexistantes.
+Elles ne sont par ailleurs pas toujours d'une qualité exceptionnelle ni
+lisibles, sauf dans le cas de petits documents épars et souvent redondants. Il
+est donc parfois difficile de trouver des documentations à la fois cohérentes,
+complètes, à jour et de qualité. Il est aussi à noter que les programmeurs du
+libre restent des passionnés et n’ont pas forcément les moyens (financiers ou
+humain) de développer toutes les fonctions d’un logiciel propriétaire.
+
+=== Problème économique
+
+Il est parfois impossible de vivre de l'édition des logiciels libres. En
+effet, du fait que ces logiciels peuvent être redistribués librement par
+quiconque, les auteurs indépendants de logiciels libres ne peuvent prétendre à
+une facturation du fruit de leur travail. Les revenus obtenus relèvent dans ce
+cas de simples contributions, qui généralement ne permettent pas de survivre.
+De fait, la plupart des gens utilisent gratuitement ces logiciels libres et
+seulement une proportion infime des utilisateurs fait un effort financier. Par
+conséquent, les modèles économiques utilisés dans le domaine du libre sont
+souvent plus complexes que dans le cas des logiciels propriétaires. Les
+éditeurs sont obligés de facturer des services ou des produits complémentaires
+(formation, aide, produits dérivés, personnalisation de leur produit pour un
+client, diffusion privilégiée des nouvelles versions, licences doubles pour
+les bibliothèques de programme diffusées sous la licence GPL et que les
+clients veulent utiliser dans leurs programmes propriétaires, etc.). Vivre du
+libre est donc nettement plus difficile que de fermer le code source du
+logiciel et de contraindre le client à financer le développement du produit.
+
+Ces penchants négatif du logiciel libre sont à relativiser car de plus en
+plus d’équipes de développement sont financées par de grosses entreprises,
+notons l’exemple de Google qui donne beaucoup d’argent pour le développement
+de Mozilla Firefox. Une évolution aussi dans les us du logiciel libre, comme
+de plus en plus d’entreprises se mettent au libre, il participent
+indirectement au développement du libre en concevant par leurs équipes IT des
+solutions à des problèmes pas encore résolus par des équipe de développement.
+
+== OpenMRS
+
+En 2004, les docteurs Burke Mamlin et Paul Biondich visitaient le
+Kenya pour consulter les données regroupées dans le cadre du suivi de l’épidémie
+de SIDA dans le pays. Il était clair que le système de gestion n’était pas
+taillé pour la tâche à accomplir. Ils ont donc décidé de débuter un nouveau
+projet pour gérer ces données et d’autres rapports médicaux. Rapidement une
+communauté s’est formée autour de cette initiative et abouti au projet OpenMRS
+(pour Open Medical Record System). Permettant la collecte efficace d’information
+depuis les dispensaires régionaux, OpenMRS a été utilisé pour réagir rapidement
+aux épidémies et a récemment lancé une initiative pour développer la plateforme
+afin d’endiguer l’épidémie d’Ebola.
+
+Book Title Goes Here
+====================
+Author's Name
+v1.0, 2003-12
+:doctype: book
+
+
+[dedication]
+Example Dedication
+------------------
+Optional dedication.
+
+This document is an AsciiDoc book skeleton containing briefly
+annotated example elements plus a couple of example index entries and
+footnotes.
+
+Books are normally used to generate DocBook markup and the titles of
+the preface, appendix, bibliography, glossary and index sections are
+significant ('specialsections').
+
+
+[preface]
+Example Preface
+---------------
+Optional preface.
+
+Preface Sub-section
+~~~~~~~~~~~~~~~~~~~
+Preface sub-section body.
+
+
+The First Chapter
+-----------------
+Chapters can contain sub-sections nested up to three deep.
+footnote:[An example footnote.]
+indexterm:[Example index entry]
+
+Chapters can have their own bibliography, glossary and index.
+
+And now for something completely different: ((monkeys)), lions and
+tigers (Bengal and Siberian) using the alternative syntax index
+entries.
+(((Big cats,Lions)))
+(((Big cats,Tigers,Bengal Tiger)))
+(((Big cats,Tigers,Siberian Tiger)))
+Note that multi-entry terms generate separate index entries.
+
+Here are a couple of image examples: an image:images/smallnew.png[]
+example inline image followed by an example block image:
+
+.Tiger block image
+image::images/tiger.png[Tiger image]
+
+Followed by an example table:
+
+.An example table
+[width="60%",options="header"]
+|==============================================
+| Option          | Description
+| -a 'USER GROUP' | Add 'USER' to 'GROUP'.
+| -R 'GROUP'      | Disables access to 'GROUP'.
+|==============================================
+
+.An example example
+===============================================
+Lorum ipum...
+===============================================
+Sub-section at level 4.
+
+footnote:[A second example footnote.]
+
+
+:numbered!:
+
+[appendix]
+Example Appendix
+----------------
+One or more optional appendixes go here at section level 1.
+
+[bibliography]
+Example Bibliography
+--------------------
+The bibliography list is a style of AsciiDoc bulleted list.
+
+[bibliography]
+.Books
+- [[[taoup]]] Eric Steven Raymond. 'The Art of Unix
+  Programming'. Addison-Wesley. ISBN 0-13-142901-9.
+- [[[walsh-muellner]]] Norman Walsh & Leonard Muellner.
+  'DocBook - The Definitive Guide'. O'Reilly & Associates. 1999.
+  ISBN 1-56592-580-7.
+
+[bibliography]
+.Articles
+- [[[abc2003]]] Gall Anonim. 'An article', Whatever. 2003.
+
+
+[glossary]
+Example Glossary
+----------------
+Glossaries are optional. Glossaries entries are an example of a style
+of AsciiDoc labeled lists.
+
+[glossary]
+A glossary term::
+  The corresponding (indented) definition.
+
+A second glossary term::
+  The corresponding (indented) definition.
