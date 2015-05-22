@@ -4,16 +4,16 @@
 :date: 01/03/2015
 :toc:
 :icons: font
-:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 :doctype: book
-
+:stylesheet: pph.css
 :numbered!:
 
+[float]
 == Le logiciel libre et leur communautés peuvent-ils contribuer à un monde meilleur ?
 
 :numbered:
 
-== Introduction et problématique
+== Motivation et problématique
 
 Le Projet Personnel en Humanités, effectué dans le cadre d’études d’ingénieur
 de second cycle à l’INSA de Lyon, est un travail de réflexion personnelle et de
@@ -89,7 +89,7 @@ source lorsqu’on modifiait significativement le code source d’un logiciel. C
 un problème qui perdura jusqu’au milieu des années 80 jusqu’à ce qu’un homme
 fasse tout basculer.
 
-==== La « Free Software Foundation » inventeur du libre
+=== La « Free Software Foundation » inventeur du libre
 
 C’est en 1986 que Richard Stallman fonda la « Free
 Software Foundation » et posa la définition du logiciel libre.
@@ -132,7 +132,7 @@ Pour pouvoir comprendre l’originalité de la licence GNU GPL, faisons un petit
 tour d’horizon de ce qui se fait en dehors des licences totalement restrictives
 des logiciels propriétaires.
 
-==== Licences et domaine public
+=== Licences et domaine public
 
 On entend surtout parler du domaine public pour des œuvres littéraires ou
 musicales mais les mêmes lois s’appliquent au logiciel. Ce n’est pas à
@@ -167,7 +167,7 @@ restrictive, et par conséquent l’inverse n’est pas possible car Dossier CTC
 L’industrie du libre la licence BSD
 ne comporte pas de clause sur la visibilité du code redistribué.
 
-==== Libre ou gratuit ?
+=== Libre ou gratuit ?
 
 Ici il est très important de distinguer le logiciel libre du logiciel gratuit.
 Le gratuiciel est un logiciel propriétaire, mais distribué gratuitement, le code
@@ -200,7 +200,7 @@ exemple les logiciels spécialisés de CMAO (Conception Mécanique Assistés par
 Ordinateurs) et il suffit parfois d’une petite recherche sur internet pour
 trouver exactement le logiciel qu’il nous faut.
 
-=== Un logiciel acessible à tous
+=== Un logiciel accessible à tous
 
 Le plus grand atout des logiciels libres est leur accessibilité pusqu'ils
  sont tout bonnement gratuits. Prenons un exemple, la version boite du système
@@ -254,7 +254,7 @@ comment combler des failles de sécurité puis d’améliorer leur produit avant
 le vendre sur le marché avec une licence propriétaire, une licence est parfois
 offerte aux bêta testeurs.
 
-=== Une moteur pour l'innovation
+=== Un moteur pour l'innovation
 
 La réalisation d’un logiciel libre est une
 sorte de défi pour ses créateurs, celui de faire le mieux. La nouveauté et
@@ -271,7 +271,7 @@ dans la conclusion des débats de l’OpenWorldForum 2009 et notamment souligné
 Michael Tiemann (Vice President of Open Source Affairs at Red Hat Inc, as well
 as President of the Open Source Initiative.).
 
-=== Une source de savoir unvierselle
+=== Une source de savoir universelle
 
 Un autre atout du logiciel libre est de générer une base de savoir commune et
 accessible à tous (à l’image de Wikipédia dont le succès n’est plus à prouver).
@@ -375,9 +375,43 @@ l'informatique par les participants du projet.
 === Le logiciel libre pour sauver des vies
 
 ==== Ameliorer l'informatique médicale
-==== Gerer les catastrophes médicales
 
-== Les limites et freins des logiciels libres
+J'ai découvert le projet OpenMRS en février 2014 à l'occasion de la
+publication des projets accepté au Google Summer of Code.
+Le Google Summer of Code est un projet annuel de Google qui vise à promouvoir le
+développement des logiciels libres chez les étudiants. Ainsi, chaque année
+pendant la période estivale, pas moins de 1000 étudiants sont rémunérés par
+Google et invités à participer au développement du logiciel libre depuis leur
+domicile. Les projets participant au GSoC sont au nombre d'une centaine.
+De grands noms du libre y participent, de Mozilla à la distribution Linux Ubuntu.
+
+Je souhaitais alors m'engager comme contributeur dans une
+communauté depuis quelques temps, mais pour plusieurs raison, je n'avais pas
+encore franchis le pas : comment m'integrer, quel projet choisir, tels étaient
+mes questions. Le GSoC était donc l'occasion parfaite. Un selection de projets, un mentor,
+une visibilité au sein de la communauté, un projet assiginés.
+Le choix fut assez rapide car mes crtières étaient assez précis : un projet à
+dimension humnanitaire, une communauté suffisament importante, bien documenté.
+Après la selection de mon projet par les responsables de la communauté, j'ai donc
+rejoinds le projet OpenMRS en tant que "Google Summer of Code Student".
+
+===== "Write Code, Save Life"
+
+En 2004, les docteurs Burke Mamlin footnote:[An example footnote.] et
+Paul Biondich visitaient le
+Kenya pour consulter les données regroupées dans le cadre du suivi de l’épidémie
+de SIDA dans le pays. Il était clair que le système de gestion n’était pas
+taillé pour la tâche à accomplir. Ils ont donc décidé de débuter un nouveau
+projet pour gérer ces données et d’autres rapports médicaux. Rapidement une
+communauté s’est formée autour de cette initiative et abouti au projet OpenMRS
+(pour Open Medical Record System). Permettant la collecte efficace d’information
+depuis les dispensaires régionaux, OpenMRS a été utilisé pour réagir rapidement
+aux épidémies et a récemment lancé une initiative pour développer la plateforme
+afin d’endiguer l’épidémie d’Ebola.
+
+==== Gerer les catastrophes naturelles
+
+== Une influence négative sur le monde
 
 Les logiciels libres présentent d’incroyables possibilités mais ne sont pas
 exempts de problèmes. Ainsi, penser, qu'ils sont une solution universelle aux
@@ -453,7 +487,7 @@ contributeurs est bien souvent un point clé du succès au développement d'une
 commauntée et du logiciel libre.
 
 
-=== Des problèmes économique
+=== Des problèmes économiques
 
 Il est parfois impossible de vivre de l'édition des logiciels libres. En
 effet, du fait que ces logiciels peuvent être redistribués librement par
@@ -480,43 +514,10 @@ de plus en plus d’entreprises se mettent au libre, il participent
 indirectement au développement du libre en concevant par leurs équipes IT des
 solutions à des problèmes pas encore résolus par des équipe de développement.
 
-== OpenMRS
-
-J'ai découvert le projet OpenMRS en février 2014 à l'occasion de la
-publication des projets accepté au Google Summer of Code.
-Le Google Summer of Code est un projet annuel de Google qui vise à promouvoir le
-développement des logiciels libres chez les étudiants. Ainsi, chaque année
-pendant la période estivale, pas moins de 1000 étudiants sont rémunérés par
-Google et invités à participer au développement du logiciel libre depuis leur
-domicile. Les projets participant au GSoC sont au nombre d'une centaine.
-De grands noms du libre y participent, de Mozilla à la distribution Linux Ubuntu.
-
-Je souhaitais alors m'engager comme contributeur dans une
-communauté depuis quelques temps, mais pour plusieurs raison, je n'avais pas
-encore franchis le pas : comment m'integrer, quel projet choisir, tels étaient
-mes questions. Le GSoC était donc l'occasion parfaite. Un selection de projets, un mentor,
-une visibilité au sein de la communauté, un projet assiginés.
-Le choix fut assez rapide car mes crtières étaient assez précis : un projet à
-dimension humnanitaire, une communauté suffisament importante, bien documenté.
-Après la selection de mon projet par les responsables de la communauté, j'ai donc
-rejoinds le projet OpenMRS en tant que "Google Summer of Code Student".
-
-=== "Write Code, Save Life"
-
-En 2004, les docteurs Burke Mamlin footnote:[An example footnote.] et
-Paul Biondich visitaient le
-Kenya pour consulter les données regroupées dans le cadre du suivi de l’épidémie
-de SIDA dans le pays. Il était clair que le système de gestion n’était pas
-taillé pour la tâche à accomplir. Ils ont donc décidé de débuter un nouveau
-projet pour gérer ces données et d’autres rapports médicaux. Rapidement une
-communauté s’est formée autour de cette initiative et abouti au projet OpenMRS
-(pour Open Medical Record System). Permettant la collecte efficace d’information
-depuis les dispensaires régionaux, OpenMRS a été utilisé pour réagir rapidement
-aux épidémies et a récemment lancé une initiative pour développer la plateforme
-afin d’endiguer l’épidémie d’Ebola.
-
 indexterm:[Example index entry]
 footnote:[A second example footnote.]
+
+== Conclusion
 
 [bibliography]
 Bibliographie
