@@ -15,6 +15,8 @@
 
 == Motivation et problématique
 
+image:images/gsoc.png[Google Summer of Code]
+
 Le Projet Personnel en Humanités, effectué dans le cadre d’études d’ingénieur
 de second cycle à l’INSA de Lyon, est un travail de réflexion personnelle et de
 documentation sur un thème libre. J'ai donc chosit de le réaliser sur un sujet
@@ -22,27 +24,17 @@ auquel j'accorde une importance  particulière et qui a un impacté de façon no
 mon évolution : le logiciel libre et les communautés open-source.
 
 En 2014, en participant au programme Google Summer Code, j'ai eu l'opportunité
-de rejoindre la communauté du projet OpenMRS. OpenMRS est une plateforme de
-collecte de données médicales (EMR), libre, gratuite et utilisées dans de nombreux pays du
-tiers monde et notamment par le système de santé fédéral au Kenya. L'origine
-de ce projet remonte à 2004, lorsque deux bio-informaticiens de l'Université
+de rejoindre la communauté du projet OpenMRS.
+
+OpenMRS est une plateforme de collecte de données médicales (EMR), libre, gratuite et utilisées dans de nombreux pays du
+tiers monde.
+L'origine de ce projet remonte à 2004, lorsque deux bio-informaticiens de l'Université
 d'Indianapolis ont démarré le développement d'un modèle de données, visant
 améliorer la lutte contre le SIDA en Afrique Sub-saharienne. Dix ans après, le
 projet rassemble une communauté de prêt de 150 contributeurs actifs et 3000
-utilisateurs dans le monde. Actuellement, il  participe à grande echelle la
-lutte contre l'épidemie Ebola au Sierra Leon et en Guinée Equatorial.
-En 2004, les docteurs Burke Mamlin et Paul Biondich visitaient le Kenya pour
-consulter les données regroupées dans le cadre du suivi de l’épidémie de SIDA
-dans le pays. Il était clair que le système de gestion n’était pas taillé pour
-la tâche à accomplir. Ils ont donc décidé de débuter un nouveau projet pour
-gérer ces données et d’autres rapports médicaux. Rapidement une communauté s’est
-formée autour de cette initiative et abouti au projet OpenMRS (pour Open Medical
-Record System). Permettant la collecte efficace d’information depuis les
-dispensaires régionaux, OpenMRS a été utilisé pour réagir rapidement aux
-épidémies et a récemment lancé une initiative pour développer la plateforme afin
-d’endiguer l’épidémie d’Ebola.
+utilisateurs dans le monde.
 
-La nature humanitaire de ce projet, qui d'ailleurs m'a pousser à le rejoindre,
+La nature humanitaire de ce projet, qui d'ailleurs m'a poussé à le rejoindre,
 ainsi que mon implication croissante,  m'ont poussé à me questionner sur l'impact
  et l'influence qu'un tel projet, et plus généralement le logiciel libre pouvait
  avoir sur la société et le monde actuel.
@@ -60,22 +52,27 @@ Avant 1977, il existait un très fort lien entre le matériel vendu et le logici
 qui était livré avec les machines. Les constructeurs de matériel achetaient aux
 éditeurs leurs logiciels avec tous les droits. Ceci était compréhensible
 puisqu’à l’époque, le logiciel était vu comme un produit d'ingénierie et non
-comme une oeuvre intellectuelle comme maintenant. En parallèle à cela, beaucoup
-de logiciels étaient développés et distribués dans le monde de la recherche pour
+comme une oeuvre intellectuelle comme maintenant.
+
+En parallèle à cela, beaucoup de logiciels étaient développés et distribués
+ dans le monde de la recherche pour
 des utilisations spécifiques et n'appartenaient à personne et étaient utilisés
-par tous. C’est en 1977 que tout change quand Bill Gates et Paul Allen demandent
+par tous.
+
+C’est en 1977 que tout change quand Bill Gates et Paul Allen demandent
 de recevoir chacun 3000 dollars chacun pour leur interpréteur BASIC, l’Altair
 BASIC. En plus de ces 3000 dollars, ils négocient une licence de 35 dollars pour
-chaque machine distribuée par le Dossier CTC : L’industrie du libre
-3constructeur doté de leur interpréteur. Ainsi Microsoft « inventa » le marché
+chaque machine distribuée par le constructeur doté de leur interpréteur. Ainsi Microsoft « inventa » le marché
 du logiciel propriétaire.
 
 === Le logiciel libre, le commencement
 
 Durant les années 80, l’internet grand public naquit et facilita les
 transmissions d’information entre les individus. Internet permit surtout à
-certains passionnés d’informatique de monter des projets commun en dépit de
-l’éloignement géographique. Très vite, de nombreux logiciels gratuits apparurent
+certains passionnés d’informatique de monter des projets communs en dépit de
+l’éloignement géographique.
+
+Très vite, de nombreux logiciels gratuits apparurent
 et furent disponible au grand public, cependant, il restait difficile de
 partager le code source de ces logiciels puisqu’il était impossible de garantir
 que le code source d’une application ne serait pas repris par un éditeur et
@@ -83,9 +80,10 @@ vendu au détriment des auteurs légitimes de ce code. Une première avancée da
 ce domaine a été faite par l’Université de Berkeley qui a publié une licence, la «
 Berkeley Software Distribution Licence » abrégée «BSD licence», qui était un
 moyen de rapprocher son code du domaine public. Il était alors légal de
-distribuer le code et de le modifier. Cependant rien ne pouvait garantir le
-libre accès au code source car rien n’obligeait de donner un accès au code
-source lorsqu’on modifiait significativement le code source d’un logiciel. C’est
+distribuer le code et de le modifier.
+
+Cependant rien ne pouvait garantir le libre accès au code source car rien n’obligeait
+de donner un accès au code source lorsqu’on modifiait significativement le code source d’un logiciel. C’est
 un problème qui perdura jusqu’au milieu des années 80 jusqu’à ce qu’un homme
 fasse tout basculer.
 
@@ -97,6 +95,8 @@ Sellons les règles de la FSF, un logiciel pour être qualifié de libre
 doit respecter ces quatre libertés :
 
 ****
+image:images/stallman.png[stallman, role="right", height="150", width="200"]
+
 - Liberté d’exécuter le programme, pour tous les usages.
 - Liberté d’étudier le fonctionnement du programme, et de le modifier pour qu’il
 fasse votre travail informatique comme vous le souhaiter. Pour ceci, le code
@@ -114,7 +114,9 @@ que R. Stallman créa la «GNU General Public Licence» ou GNU GPL. Cette licenc
 GNU C Compiler...) cependant, cette licence fut vite utilisée par d’autre
 projets indépendants des projets GNU. A ce moment là, le logiciel libre tel que
 nous le connaissons aujourd’hui est né. La GNU GPL, l’OVNI des licences et
-apogée du libre
+apogée du libre.
+
+image:images/gnu.png[GNU, role="left", height="150", width="180"]
 
 La GNU GPL, à son édition et même maintenant, reste une licence très importante
 dans le monde de l’informatique car c’est la seule licence qui garantit un
@@ -168,6 +170,7 @@ L’industrie du libre la licence BSD
 ne comporte pas de clause sur la visibilité du code redistribué.
 
 === Libre ou gratuit ?
+image:images/opensource.gif[alt="Open Source", float="left", height="200", width="180"]
 
 Ici il est très important de distinguer le logiciel libre du logiciel gratuit.
 Le gratuiciel est un logiciel propriétaire, mais distribué gratuitement, le code
@@ -212,6 +215,7 @@ remplaçant par une version de Linux. Ceux-là oublient que tout constructeur de
 matériel ou assembleur doit mettre en place un service de remboursement de
 licence de logiciels propriétaires pour les logiciels livrés par défaut avec la
 machine.
+
 Un autre argument en faveur des logiciels libres est leur facilité
 d’utilisation. Beaucoup d’éditeur de logiciel libre ont travaillé sur
 l’ergonomie de leur logiciel et proposent des moyens simple d’installer un
@@ -224,7 +228,7 @@ parfois vielle école et une certaine habitude à prendre pour les utiliser.
 
 
 === Un avantage pour la sécurité informatique
-
+image:images/security.png[Sécurité, height="200", width="100", role="left"]
 On peut parler d’une sécurité accrue dans le cas de logiciel libre car comme
 leur code source est visible aux yeux du monde entier et il est donc plus
 difficile d’y cacher un code malveillant. De plus, les utilisateurs avancés sont
@@ -260,14 +264,17 @@ La réalisation d’un logiciel libre est une
 sorte de défi pour ses créateurs, celui de faire le mieux. La nouveauté et
 l’aspect innovateur du logiciel est donc essentiel à sa création. C’est, de
 plus, l’un des aspects qui va motiver et éveiller l’intérêt des différents
-acteurs qui participent à sa réalisation. L’aspect défi, recherche, est un
+acteurs qui participent à sa réalisation.
+
+L’aspect défi, recherche, est un
 élément fondateur de la conception du logiciel. Cela fédère les créateurs autour
 de ce but commun, de cette passion partagée et génère un enthousiasme général
 favorable au travail. La liberté d’accès aux sources permet à chacun de modifier le
 logiciel afin de le faire évoluer et de le parfaire. Cette liberté dans la
 réalisation laisse libre cour à la création et à l’imagination qui va dans ce
-domaine, de paire avec la pointe de la technologie. Ce constat est développé
-dans la conclusion des débats de l’OpenWorldForum 2009 et notamment souligné par
+domaine, de paire avec la pointe de la technologie.
+
+Ce constat est développé dans la conclusion des débats de l’OpenWorldForum 2009 et notamment souligné par
 Michael Tiemann (Vice President of Open Source Affairs at Red Hat Inc, as well
 as President of the Open Source Initiative.).
 
@@ -280,7 +287,9 @@ Au-delà de création d’un « patrimoine universel public », c’est un bén�
 établissements d'enseignement de tous niveaux doivent utiliser et enseigner le
 logiciel libre car seul celui-ci leur permet de remplir leurs missions
 essentielles : diffuser le savoir et préparer les élèves à être de bons membres
-de leur communauté. Le code source, ainsi que les méthodes du logiciel libre,
+de leur communauté.
+
+Le code source, ainsi que les méthodes du logiciel libre,
 font partie des savoirs humains, alors qu'au contraire le logiciel privateur
 fait intervenir un savoir secret, fermé. On peut donc affirmer qu'il est une aide
 à l'éducation, quand le logiciel privateur l'interdit.
@@ -301,8 +310,9 @@ principale cause de la réussite du logiciel libre : les gens qui le développen
 sont motivés car ils ont un besoin ou une certaine envie de réaliser et aiment
 ce qu'ils font : « Pour résoudre un problème intéressant, commencez par trouver
 un problème qui vous intéresse. ». Ils ne sont pas poussés à le faire, comme
-peuvent l'être des développeurs dans une entreprise commerciale. Eric Raymond
-dans son essai *« Cathedral and the bazaar »* donne ainsi beaucoup de conseils
+peuvent l'être des développeurs dans une entreprise commerciale.
+
+Eric Raymond dans son essai *« Cathedral and the bazaar »* donne ainsi beaucoup de conseils
 tirés d'une longue étude du phénomène Linux et de ses propres expériences. Il
 montre que les développements libres (qui sont du style « bazaar », car
 d'apparence anarchique et désorganisés) sont plus efficaces que leur équivalents
@@ -312,7 +322,11 @@ longs tests). Cette domination du logiciel libre sur le commercial pourrait êtr
 le fait de la nécessaire considération du talent d'autrui dans les projets
 libres : « Il est presque aussi important de savoir reconnaître les bonnes idées
 de vos utilisateurs que d'avoir de bonnes idées vous-même. C'est même
-préférable, parfois ».  Il conseille ainsi de réellement s'ouvrir aux autres et
+préférable, parfois ».
+
+image:images/bazar.png[width="300", height="200", align="center"]
+
+Il conseille ainsi de réellement s'ouvrir aux autres et
 de déléguer au maximum les tâches : « Traiter vos utilisateurs en tant que
 co-développeurs est le chemin le moins semé d'embûches vers une amélioration
 rapide du code et un débogage efficace » et « Si vous traitez vos bêta-testeurs
@@ -357,7 +371,9 @@ gratuite de la programmation. Ils peuvent permettent aux PVDs de rattraper plus
 rapidement leur retard technologique dans le secteur des logiciels.
 Les sources étant librement disponibles, cela constitue pour tous ceux qui
 veulent relever leur niveau en programmation une occasion idéale d'apprendre
-les dernières techniques. D'autre part, il est très facile aux informaticiens des
+les dernières techniques.
+
+D'autre part, il est très facile aux informaticiens des
 PVDs de participer à des projets Open Source, ceux-ci étant ouverts aux
 programmeurs de toutes origines.
 
@@ -375,9 +391,11 @@ l'informatique par les participants du projet.
 === Le logiciel libre pour sauver des vies
 
 ==== Ameliorer l'informatique médicale
+image:images/openmrs.svg[caption="OpenMRS", title="OpenMRS", alt="OpenMRS",
+ width="300", height="200"]
 
 J'ai découvert le projet OpenMRS en février 2014 à l'occasion de la
-publication des projets accepté au Google Summer of Code.
+publication des projets acceptés au Google Summer of Code.
 Le Google Summer of Code est un projet annuel de Google qui vise à promouvoir le
 développement des logiciels libres chez les étudiants. Ainsi, chaque année
 pendant la période estivale, pas moins de 1000 étudiants sont rémunérés par
@@ -397,19 +415,108 @@ rejoinds le projet OpenMRS en tant que "Google Summer of Code Student".
 
 ===== "Write Code, Save Life"
 
-En 2004, les docteurs Burke Mamlin footnote:[An example footnote.] et
-Paul Biondich visitaient le
-Kenya pour consulter les données regroupées dans le cadre du suivi de l’épidémie
-de SIDA dans le pays. Il était clair que le système de gestion n’était pas
-taillé pour la tâche à accomplir. Ils ont donc décidé de débuter un nouveau
-projet pour gérer ces données et d’autres rapports médicaux. Rapidement une
-communauté s’est formée autour de cette initiative et abouti au projet OpenMRS
-(pour Open Medical Record System). Permettant la collecte efficace d’information
-depuis les dispensaires régionaux, OpenMRS a été utilisé pour réagir rapidement
-aux épidémies et a récemment lancé une initiative pour développer la plateforme
-afin d’endiguer l’épidémie d’Ebola.
+OpenMRS est un donc outil collaboratif visant à développer des solutions logicielles
+pour appuyer la prestation de soins de santé dans les pays en développement.
+
+Au départ, le projet est né de la nécessité impérieuse d’enrayer la progression
+dramatique du virus du Sida en Afrique. Il s’agissait de promouvoir le suivi
+médical grâce à un système de dossiers médicaux électroniques adaptés à la gamme
+complète de soins médicaux. C’est de Paul Biondich et Burke Mamlin, de
+l’Institut Regenstrief (dans l’Indiana), que l’idée du projet OpenMRS fut
+lancée, suite à une visite en 2004 à Eldoret au Kenya.
+
+image:images/burke.jpg[Burke Mamlin, role="right"]
+
+À cette époque, Hamish Fraser dirige déjà un projet similaire nommé PIH-EMR, un
+système internet de dossiers médicaux, destiné pour sa part à combattre la
+tuberculose au Pérou et le VIH en Haïti rural. Les deux équipes se rencontrent
+la même année à San Francisco, à l’occasion de la conférence Medinfo, et se
+rendent compte que leurs projets partagent la même philosophie. C’est ainsi
+qu’OpenMRS est né, par la mise en commun des intérêts et des compétences de
+chacun. Plus tard, Chris Seebregts, du Conseil sud-africain de recherche
+médicale, viendra se joindre au projet pour en devenir le quatrième membre
+fondateur.
+
+Techniquement, OpenMRS est un système de données très ouvert conçu pour être
+utilisable dans des environnements pauvres en ressources. Son aspect libre et
+flexible lui permet d’être adapté à de nouveaux contextes et à de nouvelles
+données de santé, sans recourt à la programmation. C’est donc une plateforme
+facilement accessible que peuvent utiliser librement les organisations
+humanitaires ou les ONG, comme Medecins Sans Frontières, en partant quasiment de zéro.
+
+OpenMRS est distribué sous licence  » OpenMRS Public License » (basé sur la
+licence Mozilla Public License). Il a été développé en Java et utilise une base
+de données MySQL (avec migration possible sur d’autres bases de données via
+Hibernate). Il possède des outils d’exportation de données et de reporting.
+
+Aujourd'hui la communauté de développeurs (150 environs) est organier autour
+d'une dizaine de "core developers", qui travaillent à plein sur le projet, soit
+détachés par leur entreprise ou fondation, soit salariés par l'Institut Regenstrief.
+
+OpenMRS a ainsi été utilisé à plusieurs reprises pour réagir rapidement aux
+épidémies et a récemment lancé une initiative pour développer la plateforme afin
+d’endiguer l’épidémie d’Ebola.
 
 ==== Gerer les catastrophes naturelles
+
+===== L'exemple du typhon Haiyan
+image:images/openstreetmap.png[Open Street Map, role="left", width="180"]
+
+La forte mobilisation de la communauté OpenStreetMap après le passage du
+terrible typhon Haiyan aux Philippines en Novembre 2013 a fournit une aide précieuse à la la
+Croix-Rouge sur le terrain.
+
+Des bénévoles à travers le monde ont en effet construit une infrastructure
+géo-numérique pour aider l’organisation des secours aux victimes du typhon.
+Uune collaboration
+humanitaire mondiale et massive rendue possible par le biais d’Internet.
+qui a permit la réalisiationn de cartes détaillées des zones touchées par le typhon
+Haiyan, qui n’existait lorsque le typhon a frappé.
+
+C'est ainsi, plus de 400 contributeurs qui se sont mobilisés et ont effectué près de 750 000 ajouts sur
+la carte en ligne libre des Philippines et de ses environs. Elle reflètent l’état de la carte avant le passage du typhon, mais
+ont été les sauveteurs de la Croix-Rouge et les bénévoles à prendre des
+décisions cruciales afin de savoir où envoyer de la nourriture, de l’eau , des
+équipements.
+
+Il est très facile ici d’exagérer, mais il est très probable qu’aux Philippines,
+ les données et logiciels de cartographie libres — ainsi que la
+communauté qui les supporte — à sauvé des vies.
+
+===== Le Wikipédia des cartes
+
+Les changements ont été faits dans OpenStreetMap (OSM), une sorte de
+Wikipédia des cartes. OSM se veut être une carte complète du monde, libre
+d’utilisation et modifiable par tous. Créée en 2004, la plateforme a
+maintenant plus d’un million d’utilisateurs.
+
+La Croix-Rouge, à l’échelle internationale, a commencé récemment à utiliser des
+logiciels et des données libres au sein de ses différents projets. Les
+logiciels libres réduisent ou éliminent les coûts cachés, ou le montant
+nécessaire pour que les choses continuent de fonctionner après le départ de la
+Croix-Rouge. N’importe quel logiciel ou donnée issu de la Croix-Rouge est
+aujourd’hui sous licence libre ou Creative Commons.
+
+===== Comment des données cartographiques ont elles pu aider la croix rouge ?
+
+Tout d’abord, elles ont permit d’imprimer sur place des
+cartes en utilisant les donnée d’OSM pour ensuite les redistribuer sur le
+terrain. La Croix-Rouge américaine a envoyé quatre responsables de haut niveau
+aux Philippines, et parmi eux, Helen Welch, une spécialiste de la gestion de
+l’information, a apporté avec elle plus de 50 cartes papier décrivant la ville
+de Tacloban et d’autres zones fortement touchées.
+
+Ces cartes ont été imprimées avant que les volontaires n’aient fait
+la majorité des changements dans les zones concernées sur OSM. En les comparant
+avec les nouvelles cartes imprimées sur le terrain, les secouristes ont put
+retrouver plus facilement l'emplacement des batiments détruit et en déduire les
+emplacements potentiels des victimes.
+
+OSM n’est pas la seule organisation à solliciter l’aide de volontaires en ligne
+afin d’aider les Philippines  : MicroMappers, dirigé par un vétéran des efforts
+d’OSM en Haïti, a également fait des appels à des bénévoles pour trier des
+tweets, et ainsi déterminer les zones où les secours étaient les plus
+nécessaires.
 
 == Une influence négative sur le monde
 
@@ -518,6 +625,28 @@ indexterm:[Example index entry]
 footnote:[A second example footnote.]
 
 == Conclusion
+La découverte de l'open-source à travers ma participation au Google Summer of Code
+au sein d'OpenMRS, m'a poussé à m'interroger sur sa place et son importance, aussi bien
+dans le milieu de l'informatique, qu'à plus grande échelle dans la société actuelle.
+
+Même si l'open-source présente certaines limites que nous avons décrites, il est incontestablement
+un moyen de faire "bouger les choses", d'améliorer le monde, voire de sauver des vie.
+On le voit bien avec des projets comme OpenMRS, ou bien Open Street Map.
+
+De plus, les communautés open-source sont une source de bénévoles mobilisables rapidement à l'échelle planétaire.
+Ce fut par exemple le cas lors du typhon Hayan ou de la pandémie Ebola.
+
+C'est par ailleurs un levier au developpement d'une idée, d'un logiciel. Lors des prémisses
+d'OpenMRS, la question s'est posée du modèle de développement et de fincancement, pour
+concrétiser le projet. Universitaire, SNI n'étaient pas viables, par manque de financement
+et ne garantissant ni l'évolution, ni la perinité du projet. La solution de
+la 'open-source' fut donc chosit et l'on voit bien aujourd'hui, 11 ans après, qu'il fut le bon.
+
+Pour terminer, je souhaite remercier Burke Mamlin, pour son "mentoring" et son support
+presue quotidient lors du GSoC 2014. C'est incontestable qu'il m'a permit de progresser
+et a donc participé a formation d'ingénieur.
+
+<<<
 
 [bibliography]
 Bibliographie
@@ -525,24 +654,37 @@ Bibliographie
 
 [bibliography]
 .Ouvrages
-- Eric Steven Raymond. 'The Art of Unix
-Henry Chesbroug. Open innovation : the new imperative for creating and profiting from technology, Boston, Mass, Harvard Business School Press
+- Eric Steven Raymond. The Art of Unix
+Henry Chesbroug. Open innovation : the new imperative for creating and profiting from technology. Harvard Business School Press
 - Eric Raymond, Bob Young. The Cathedral & the Bazaar. O'Reilly,‎ 2001.
 - Chris DiBona, Mark Stone, Danese Cooper. Open Sources 2.0, the Continuing Evolution
 O'Reill, October 2005.
 
 [bibliography]
 .Articles
-- [[[abc2003]]] Gall Anonim. 'Les nouvelles frontières
-de l’open innovation', Whatever. 2003.
+- Zschoch, M. (2007). The Success of Open Source. Canadian Journal of Political Science/Revue Canadienne de Science Politique, 40(01), 250–252. http://doi.org/10.1017/S0008423907070266.
+- ALMARZOUQ, Mohammad, ZHENG, Li, RONG, Guang, et al. Open source: Concepts, benefits, and challenges. Communications of the Association for Information Systems, 2005, vol. 16, no 1, p. 37.
+- MORGAN, Lorraine et FINNEGAN, Patrick. Benefits and drawbacks of open source software: an exploratory study of secondary software firms. In : Open Source Development, Adoption and Innovation. Springer US, 2007. p. 307-312.
+
+[bibliography]
+.Presse
 - Ivan Gayton : « Faire une carte peut sauver des vies ». La Croix. 16/12/2014.
+- Geoffroy Husson : « OpenStreetMap est un projet de cartographie collaborative comparable à Wikipedia ». Le Monde. 12/06/2012.
 
 [bibliography]
 .Sites Web
-- OpenMRS.org. Disponible sur : <http://openmrs.org> (Consulté le 10.05.2015).
-- Humanitarian OpenStreetMap Team. Disponible sur : <http://hoIvan Gayton : « Faire une carte peut sauver des vies »tosm.org> (Consulté
-le 09.12.2014).
-- Disponible sur : <http://www.networkworld.com/article/2363941/software/156185-10-reasons-why-open-source-is-eating-the-world.html
+- OpenMRS.org. Disponible sur : < http://openmrs.org > (Consulté le 10.05.2015).
+- OpenStreetMap.org. Disponible sur : < http://openstreetmap.org > (Consulté le 10.05.2015).
+- Maria Korolof, 10 reasons why open source is eating the world.
+Disponible sur : < http://www.networkworld.com/article/2363941/software/156185-10-reasons-why-open-source-is-eating-the-world.html >
 - Richard Stallman, Why Schools Should Exclusively Use Free Software.
-Disponible sur : <https://www.gnu.org/education/edu-schools.en.html> (Consulté le
+Disponible sur : < https://www.gnu.org/education/edu-schools.en.html > (Consulté le
   10.01.2015).
+- Richard Stallman, Les logiciels libres au secours de la vie privée.
+Disponible sur : < http://www.futuremag.fr/animation/richard-stallman-les-logiciels-libres-au-secours-de-la-vie-privee-free-software-NSA-cybers%C3%A9curit%C3%A9-data > (Consulté le
+    11.06.2015).
+- Médecins Sans Frontières. Google builds a new tablet for the fight against Ebola.
+Disponible sur : < http://www.wired.com/2015/03/google-builds-new-tablet-fight-ebola > (Consulté le
+04.03.2015).
+- Google Summer of Code. Disponible sur : < https://www.google-melange.com/gsoc > (Consulté le
+04.03.2015).
