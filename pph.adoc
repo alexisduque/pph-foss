@@ -2,17 +2,22 @@
 :author: Alexis DUQUE
 :email: <alexis.duque@insa-lyon.fr>
 :date: 01/03/2015
-:toc:
+:toc: hello
+:toc-placement: preamble
+:toc-title: Sommaire
 :icons: font
 :doctype: book
 :stylesheet: pph.css
-:numbered!:
 
 [float]
-== Le logiciel libre et leur communautés peuvent-ils contribuer à un monde meilleur ?
+:numbered!:
+== Le logiciel libre et leurs communautés peuvent-ils contribuer à un monde meilleur ?
+
+<<<
+
+image::images/cloud.jpg[Cloud, width="400", align="center"]
 
 :numbered:
-
 == Motivation et problématique
 
 image:images/gsoc.png[Google Summer of Code]
@@ -29,19 +34,21 @@ de rejoindre la communauté du projet OpenMRS.
 OpenMRS est une plateforme de collecte de données médicales (EMR), libre, gratuite et utilisées dans de nombreux pays du
 tiers monde.
 L'origine de ce projet remonte à 2004, lorsque deux bio-informaticiens de l'Université
-d'Indianapolis ont démarré le développement d'un modèle de données, visant
+d'Indianapolis ont démarré le développement d'un modèle de données, visant à
 améliorer la lutte contre le SIDA en Afrique Sub-saharienne. Dix ans après, le
 projet rassemble une communauté de prêt de 150 contributeurs actifs et 3000
 utilisateurs dans le monde.
 
-La nature humanitaire de ce projet, qui d'ailleurs m'a poussé à le rejoindre,
+La nature humanitaire de ce projet, qui d'ailleurs m'a incité à le rejoindre,
 ainsi que mon implication croissante,  m'ont poussé à me questionner sur l'impact
- et l'influence qu'un tel projet, et plus généralement le logiciel libre pouvait
+ et l'influence qu'un tel projet, et plus généralement led logiciels libres pouvait
  avoir sur la société et le monde actuel.
 
 Pour comprendre les raisons de cette reflexion, je reviendrais sur les origines et
 la raison d'être du logiciel libre avant d'analyser comment il a influencé et
-influence actuellement notre société, en m'appuyant notamment sur le cas OpenMRS.
+influence actuellement notre société, en m'appuyant notamment sur des exemples concrêts.
+
+<<<
 
 == Le logiciel libre
 
@@ -116,7 +123,7 @@ projets indépendants des projets GNU. A ce moment là, le logiciel libre tel qu
 nous le connaissons aujourd’hui est né. La GNU GPL, l’OVNI des licences et
 apogée du libre.
 
-image:images/gnu.png[GNU, role="left", height="150", width="180"]
+image:images/gnu.png[GNU, role="left", width="150"]
 
 La GNU GPL, à son édition et même maintenant, reste une licence très importante
 dans le monde de l’informatique car c’est la seule licence qui garantit un
@@ -139,6 +146,7 @@ des logiciels propriétaires.
 On entend surtout parler du domaine public pour des œuvres littéraires ou
 musicales mais les mêmes lois s’appliquent au logiciel. Ce n’est pas à
 proprement parler d’une licence mais reste un moyen de faciliter le partage.
+
 Ainsi, un logiciel du domaine public doit avoir son code accessible à tous. Il
 peut être modifié, redistribué sans contraintes. Cependant, cette méthode n’est
 pas utilisée et ceci pour plusieurs raisons. L’informatique étant une science
@@ -149,8 +157,10 @@ propriétaires ont abandonné leur droits sur ceux ci. De plus, rien n’assure 
 le code source ne sera pas modifié puis fermé au profit d’un éditeur quelconque.
 Enfin la législation du domaine public varie selon les pays et peut entrer en
 conflit avec les idéaux de partage. Ces raisons ont poussé des éditeurs à écrire
-d’autres licences, plus contraignantes. La «Berkeley software distribution
-license» ébauche du libre
+d’autres licences, plus contraignantes. La «Berkeley Software Distribution
+license» ébauche du libre.
+
+image:images/bsd.png[alt="BSD", role="right", height="200", width="200"]
 
 Dans les années 70, les chercheurs de l’Université de Berkeley cherchent un
 moyen simple de distribuer à la communauté scientifique le code source de leur
@@ -170,7 +180,7 @@ L’industrie du libre la licence BSD
 ne comporte pas de clause sur la visibilité du code redistribué.
 
 === Libre ou gratuit ?
-image:images/opensource.gif[alt="Open Source", float="left", height="200", width="180"]
+image:images/opensource.gif[alt="Open Source", float="left", width="150"]
 
 Ici il est très important de distinguer le logiciel libre du logiciel gratuit.
 Le gratuiciel est un logiciel propriétaire, mais distribué gratuitement, le code
@@ -191,6 +201,7 @@ Il devient maintenant plus facile de comprendre ce pour quoi le logiciel libre a
 été pensé, il s’agissait d’un moyen de mettre à disposition de tous des outils
 efficaces et facilement évolutifs.
 
+<<<
 == Un atout pour notre société
 
 Les logiciels libres sont, il faut l’avouer, très peu connus du très grand
@@ -324,7 +335,7 @@ libres : « Il est presque aussi important de savoir reconnaître les bonnes id�
 de vos utilisateurs que d'avoir de bonnes idées vous-même. C'est même
 préférable, parfois ».
 
-image:images/bazar.png[width="300", height="200", align="center"]
+image::images/bazar.png[width="300", height="200", align="center"]
 
 Il conseille ainsi de réellement s'ouvrir aux autres et
 de déléguer au maximum les tâches : « Traiter vos utilisateurs en tant que
@@ -392,7 +403,7 @@ l'informatique par les participants du projet.
 
 ==== Ameliorer l'informatique médicale
 image:images/openmrs.svg[caption="OpenMRS", title="OpenMRS", alt="OpenMRS",
- width="300", height="200"]
+ width="400", height="200"]
 
 J'ai découvert le projet OpenMRS en février 2014 à l'occasion de la
 publication des projets acceptés au Google Summer of Code.
@@ -425,7 +436,7 @@ complète de soins médicaux. C’est de Paul Biondich et Burke Mamlin, de
 l’Institut Regenstrief (dans l’Indiana), que l’idée du projet OpenMRS fut
 lancée, suite à une visite en 2004 à Eldoret au Kenya.
 
-image:images/burke.jpg[Burke Mamlin, role="right"]
+image:images/burke.jpg[Burke Mamlin, role="right", width="150"]
 
 À cette époque, Hamish Fraser dirige déjà un projet similaire nommé PIH-EMR, un
 système internet de dossiers médicaux, destiné pour sa part à combattre la
@@ -460,7 +471,7 @@ d’endiguer l’épidémie d’Ebola.
 ==== Gerer les catastrophes naturelles
 
 ===== L'exemple du typhon Haiyan
-image:images/openstreetmap.png[Open Street Map, role="left", width="180"]
+image:images/openstreetmap.png[Open Street Map, role="left", width="150"]
 
 La forte mobilisation de la communauté OpenStreetMap après le passage du
 terrible typhon Haiyan aux Philippines en Novembre 2013 a fournit une aide précieuse à la la
@@ -517,6 +528,8 @@ afin d’aider les Philippines  : MicroMappers, dirigé par un vétéran des eff
 d’OSM en Haïti, a également fait des appels à des bénévoles pour trier des
 tweets, et ainsi déterminer les zones où les secours étaient les plus
 nécessaires.
+
+<<<
 
 == Une influence négative sur le monde
 
@@ -621,8 +634,7 @@ de plus en plus d’entreprises se mettent au libre, il participent
 indirectement au développement du libre en concevant par leurs équipes IT des
 solutions à des problèmes pas encore résolus par des équipe de développement.
 
-indexterm:[Example index entry]
-footnote:[A second example footnote.]
+<<<
 
 == Conclusion
 La découverte de l'open-source à travers ma participation au Google Summer of Code
@@ -649,10 +661,12 @@ et a donc participé a formation d'ingénieur.
 <<<
 
 [bibliography]
+[left]
 Bibliographie
 ------------
 
 [bibliography]
+[float]
 .Ouvrages
 - Eric Steven Raymond. The Art of Unix
 Henry Chesbroug. Open innovation : the new imperative for creating and profiting from technology. Harvard Business School Press
@@ -662,29 +676,27 @@ O'Reill, October 2005.
 
 [bibliography]
 .Articles
-- Zschoch, M. (2007). The Success of Open Source. Canadian Journal of Political Science/Revue Canadienne de Science Politique, 40(01), 250–252. http://doi.org/10.1017/S0008423907070266.
+- ZSCHOCH, Marc. The Success of Open Source. Canadian Journal of Political Science/Revue Canadienne de Science Politique, 2007, vol. 40, no 1, p. 250–252.
 - ALMARZOUQ, Mohammad, ZHENG, Li, RONG, Guang, et al. Open source: Concepts, benefits, and challenges. Communications of the Association for Information Systems, 2005, vol. 16, no 1, p. 37.
 - MORGAN, Lorraine et FINNEGAN, Patrick. Benefits and drawbacks of open source software: an exploratory study of secondary software firms. In : Open Source Development, Adoption and Innovation. Springer US, 2007. p. 307-312.
-
-[bibliography]
-.Presse
 - Ivan Gayton : « Faire une carte peut sauver des vies ». La Croix. 16/12/2014.
 - Geoffroy Husson : « OpenStreetMap est un projet de cartographie collaborative comparable à Wikipedia ». Le Monde. 12/06/2012.
 
 [bibliography]
 .Sites Web
-- OpenMRS.org. Disponible sur : < http://openmrs.org > (Consulté le 10.05.2015).
-- OpenStreetMap.org. Disponible sur : < http://openstreetmap.org > (Consulté le 10.05.2015).
+- OpenMRS.org. Disponible sur: <http://openmrs.org> (Consulté le 10.05.2015).
+- OpenStreetMap.org. Disponible sur: <http://openstreetmap.org> (Consulté le 10.05.2015).
 - Maria Korolof, 10 reasons why open source is eating the world.
-Disponible sur : < http://www.networkworld.com/article/2363941/software/156185-10-reasons-why-open-source-is-eating-the-world.html >
+Disponible sur: <http://www.networkworld.com/article/2363941/software/156185-10-reasons-why-open-source-is-eating-the-world.html> (Consulté le
+  10.01.2015).
 - Richard Stallman, Why Schools Should Exclusively Use Free Software.
-Disponible sur : < https://www.gnu.org/education/edu-schools.en.html > (Consulté le
+Disponible sur: <https://www.gnu.org/education/edu-schools.en.html> (Consulté le
   10.01.2015).
 - Richard Stallman, Les logiciels libres au secours de la vie privée.
-Disponible sur : < http://www.futuremag.fr/animation/richard-stallman-les-logiciels-libres-au-secours-de-la-vie-privee-free-software-NSA-cybers%C3%A9curit%C3%A9-data > (Consulté le
+Disponible sur: <http://www.futuremag.fr/animation/richard-stallman-les-logiciels-libres-au-secours-de-la-vie-privee-free-software-NSA-cybers%C3%A9curit%C3%A9-data> (Consulté le
     11.06.2015).
 - Médecins Sans Frontières. Google builds a new tablet for the fight against Ebola.
-Disponible sur : < http://www.wired.com/2015/03/google-builds-new-tablet-fight-ebola > (Consulté le
+Disponible sur: <http://www.wired.com/2015/03/google-builds-new-tablet-fight-ebola> (Consulté le
 04.03.2015).
-- Google Summer of Code. Disponible sur : < https://www.google-melange.com/gsoc > (Consulté le
+- Google Summer of Code. Disponible sur: <https://www.google-melange.com/gsoc> (Consulté le
 04.03.2015).
