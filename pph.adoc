@@ -1,7 +1,7 @@
 ﻿= Projet Personel en Humanités
 :author: Alexis DUQUE
 :email: <alexis.duque@insa-lyon.fr>
-:date: 01/03/2015
+:date: 24/06/2015
 :toc: hello
 :toc-placement: preamble
 :toc-title: Sommaire
@@ -699,16 +699,3 @@ Disponible sur: <http://www.wired.com/2015/03/google-builds-new-tablet-fight-ebo
 04.03.2015).
 - Google Summer of Code. Disponible sur: <https://www.google-melange.com/gsoc> (Consulté le
 04.03.2015).
-
-
-
-
-
-
-
-
-
-
-
-
-
